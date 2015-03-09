@@ -1,0 +1,59 @@
+/*   
+Theme Name: WP-Bootplate 
+Theme URI: http://www.michaelroach.us/
+Description: Custom Wordpress Theme developed by Michael Roach
+Author: Michael Roach
+Author URI: http://www.michaelroach.us/
+*/ 
+
+$blue:#4375ba;
+
+body {
+  
+}
+
+header { }
+#logo {
+  margin:0; padding:0;
+  img {display:block; margin:0 auto;}
+}
+
+#navigation {
+  .current-menu-item{}
+  ul#menu-primary li:first-child {}
+  a, a:link{text-decoration: none; padding: 0 20px;}
+  ul {list-style: none; margin-bottom: 0;
+      li:hover ul {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  li {display: inline-block;
+    ul {
+      display: inline-block;
+      padding: 0;
+      position: absolute;
+      top: 24px;
+      left: -30px;
+      display: none;
+      opacity: 0;
+      visibility: hidden;
+      li {}
+    }
+  }
+  a:hover{color: #ccc;}
+  li:hover {}
+}
+
+#sidebar {
+  h2 {}
+  ul {list-style: none;}
+  li {}
+}
+
+a, a:link {
+  transition:.25s;
+  text-decoration: none;
+}
+a:hover {}

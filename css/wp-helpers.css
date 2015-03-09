@@ -1,0 +1,165 @@
+.cf:before,
+.cf:after {content: " "; display: table;}
+.cf:after {clear: both;}
+.cf { *zoom: 1;}
+
+/* Images */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* galleries */
+.entry-content dl.gallery-item {
+        margin: 0;
+}
+.gallery-item a,
+.gallery-caption {
+        width: 90%;
+}
+.gallery-item a {
+        display: block;
+}
+.gallery-caption a {
+        display: inline;
+}
+.gallery-columns-1 .gallery-item a {
+        max-width: 100%;
+        width: auto;
+}
+.gallery .gallery-icon img {
+        height: auto;
+        max-width: 90%;
+        padding: 5%;
+}
+.gallery-columns-1 .gallery-icon img {
+        padding: 3%;
+}
+
+/* Responsive Wordpress Images */
+.unit img,
+.entry-content img,
+.comment-content img,
+.widget img {
+        max-width: 100%; /* Fluid images for posts, comments, and widgets */
+        height:auto;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+        height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+img.size-full,
+img.size-large,
+img.header-image,
+img.wp-post-image {
+        max-width: 100%;
+        height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
+}
+
+/* Make sure videos and embeds fit their containers */
+embed,
+iframe,
+object,
+video {
+        max-width: 100%;
+}
+
+/* Responsive Video : assumes 16:9 ratio */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+    margin-bottom:30px;
+}
+.embed-container.videoFL{padding-bottom: 50%; /* OVERRIDE THE 16/9 ratio */}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Comments */
+ul .commentlist {list-style: none; padding-left: 0;}
