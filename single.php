@@ -12,10 +12,7 @@
 						<?php edit_post_link('Edit this entry','','.'); ?>
 				</div>
 				<hr>
-				<div class="post-navigation">
-					<?php previous_post(); ?> <?php next_post(); ?>
-				</div>
-					<?php // comments_template(); ?>
+				<?php // comments_template(); ?>
 				<?php endwhile; endif; ?>
 		</div>
 

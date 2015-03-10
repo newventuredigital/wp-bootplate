@@ -8,9 +8,20 @@ Author URI: http://www.michaelroach.us/
 
 $blue:#4375ba;
 
+@media (min-width:768px) {}
+@media (min-width:992px) {}
+@media (min-width:1200px) {}
+
 body {
-  
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
 
 header { }
 #logo {
@@ -22,7 +33,7 @@ header { }
   .current-menu-item{}
   ul#menu-primary li:first-child {}
   a, a:link{text-decoration: none; padding: 0 20px;}
-  ul {list-style: none; margin-bottom: 0;
+  ul {list-style: none; margin-bottom: 0; padding-left:0;
       li:hover ul {
       display: block;
       opacity: 1;
@@ -47,9 +58,11 @@ header { }
 }
 
 #sidebar {
-  h2 {}
-  ul {list-style: none;}
+  h2 {font-size:18px;}
+  ul {list-style: none; padding-left:0;}
   li {}
+  li a, li a:link{}
+  li a:hover{}
 }
 
 a, a:link {
@@ -57,3 +70,10 @@ a, a:link {
   text-decoration: none;
 }
 a:hover {}
+
+#mobile-button {
+  background: #ddd;
+  display: inline-block;
+  padding:4px 5px 3px 4px;
+  border-radius: 3px;
+}

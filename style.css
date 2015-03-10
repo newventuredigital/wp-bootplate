@@ -5,32 +5,38 @@ Description: Custom Wordpress Theme developed by Michael Roach
 Author: Michael Roach
 Author URI: http://www.michaelroach.us/
 */
-/* line 16, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 15, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5; }
+
+/* line 27, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #logo {
   margin: 0;
   padding: 0; }
-  /* line 18, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  /* line 29, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
   #logo img {
     display: block;
     margin: 0 auto; }
 
-/* line 24, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 35, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #navigation a, #navigation a:link {
   text-decoration: none;
   padding: 0 20px; }
-/* line 25, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 36, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #navigation ul {
   list-style: none;
-  margin-bottom: 0; }
-  /* line 26, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  margin-bottom: 0;
+  padding-left: 0; }
+  /* line 37, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
   #navigation ul li:hover ul {
     display: block;
     opacity: 1;
     visibility: visible; }
-/* line 32, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 43, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #navigation li {
   display: inline-block; }
-  /* line 33, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  /* line 44, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
   #navigation li ul {
     display: inline-block;
     padding: 0;
@@ -40,18 +46,26 @@ Author URI: http://www.michaelroach.us/
     display: none;
     opacity: 0;
     visibility: hidden; }
-/* line 45, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 56, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #navigation a:hover {
   color: #ccc; }
 
-/* line 51, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 61, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+#sidebar h2 {
+  font-size: 18px; }
+/* line 62, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #sidebar ul {
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 57, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 68, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 a, a:link {
   transition: 0.25s;
   text-decoration: none; }
 
+/* line 74, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+#mobile-button {
+  background: #ddd;
+  display: inline-block;
+  padding: 4px 5px 3px 4px;
+  border-radius: 3px; }
