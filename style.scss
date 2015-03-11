@@ -71,9 +71,46 @@ a, a:link {
 }
 a:hover {}
 
-#mobile-button {
+#mobile-navigation {
+    width: 70%;
+    position: absolute;
+    left: -70%;
+    top: 0;
+    height: 100%;
+    background: #777;
+  ul {list-style:none; padding-left:0;}
+}
+
+#mobile-open {
   background: #ddd;
   display: inline-block;
   padding:4px 5px 3px 4px;
-  border-radius: 3px;
+  border-radius: 4px;
+  a i, a:link i {color:#000;}
 }
+
+.navigation-open #page {
+  left: 0;
+  -webkit-transform: translate3d(70%, 0, 0);
+  -moz-transform: translate3d(70%, 0, 0);
+  -ms-transform: translate3d(70%, 0, 0);
+  -o-transform: translate3d(70%, 0, 0);
+  transform: translate3d(70%, 0, 0);
+  -webkit-transition: -webkit-transform 500ms ease;
+  -moz-transition: -moz-transform 500ms ease;
+  -o-transition: -o-transform 500ms ease;
+  transition: transform 500ms ease;
+  }
+
+#page {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 500ms ease;
+  -moz-transition: -moz-transform 500ms ease;
+  -o-transition: -o-transform 500ms ease;
+  transition: transform 500ms ease;
+  }

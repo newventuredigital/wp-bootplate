@@ -26,7 +26,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div class="container">
+<div class="container" id="page">
 	<header class="row">
 		<div class="" id="logo">
 			<a href="<?php echo home_url(); ?>"><img src="" alt=""></a>
@@ -35,7 +35,8 @@
 			<?php wp_nav_menu(array('menu' => 'Primary' )); ?>
 		</nav>
 		<nav class="hidden-md hidden-lg" id="mobile-navigation">
+			<div class="hidden-md hidden-lg" id="mobile-close"><a href="#"><i class="fa fa-close fa-2x"></i></a></div>
 			<?php wp_nav_menu(array('menu' => 'Primary' )); ?>
 		</nav>
-		<div class="hidden-md hidden-lg" id="mobile-button"><i class="fa fa-bars fa-2x"></i></div>
+		<div class="hidden-md hidden-lg" id="mobile-open"><a href="#"><i class="fa fa-bars fa-2x"></i></a></div>
 	</header>
