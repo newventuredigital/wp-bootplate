@@ -57,6 +57,28 @@ header { }
   li:hover {}
 }
 
+#mobile-navigation {
+    width: 70%;
+    position: absolute;
+    left: -70%;
+    top: 0;
+    height: 100%;
+    background: #222;
+  ul {list-style:none; padding-left:0;
+  li:hover {background:#111;}
+  li a{color:#fff; display:block; font-size:16px; padding:8px;}
+  }
+  #mobile-close a i {color:#fff; padding:8px; position:absolute; right:0;}
+}
+
+#mobile-open {
+  background: #ddd;
+  display: inline-block;
+  padding:6px 10px 6px 8px;
+  border-radius: 4px;
+  a i, a:link i {color:#000;}
+}
+
 #sidebar {
   h2 {font-size:18px;}
   ul {list-style: none; padding-left:0;}
@@ -70,24 +92,6 @@ a, a:link {
   text-decoration: none;
 }
 a:hover {}
-
-#mobile-navigation {
-    width: 70%;
-    position: absolute;
-    left: -70%;
-    top: 0;
-    height: 100%;
-    background: #777;
-  ul {list-style:none; padding-left:0;}
-}
-
-#mobile-open {
-  background: #ddd;
-  display: inline-block;
-  padding:4px 5px 3px 4px;
-  border-radius: 4px;
-  a i, a:link i {color:#000;}
-}
 
 .navigation-open #page {
   left: 0;

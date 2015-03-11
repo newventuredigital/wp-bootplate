@@ -50,43 +50,58 @@ body {
 #navigation a:hover {
   color: #ccc; }
 
-/* line 61, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
-#sidebar h2 {
-  font-size: 18px; }
-/* line 62, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
-#sidebar ul {
-  list-style: none;
-  padding-left: 0; }
-
-/* line 68, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
-a, a:link {
-  transition: 0.25s;
-  text-decoration: none; }
-
-/* line 74, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 60, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #mobile-navigation {
   width: 70%;
   position: absolute;
   left: -70%;
   top: 0;
   height: 100%;
-  background: #777; }
-  /* line 81, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  background: #222; }
+  /* line 67, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
   #mobile-navigation ul {
     list-style: none;
     padding-left: 0; }
+    /* line 68, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+    #mobile-navigation ul li:hover {
+      background: #111; }
+    /* line 69, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+    #mobile-navigation ul li a {
+      color: #fff;
+      display: block;
+      font-size: 16px;
+      padding: 8px; }
+  /* line 71, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  #mobile-navigation #mobile-close a i {
+    color: #fff;
+    padding: 8px;
+    position: absolute;
+    right: 0; }
 
-/* line 84, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 74, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #mobile-open {
   background: #ddd;
   display: inline-block;
-  padding: 4px 5px 3px 4px;
+  padding: 6px 10px 6px 8px;
   border-radius: 4px; }
-  /* line 89, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+  /* line 79, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
   #mobile-open a i, #mobile-open a:link i {
     color: #000; }
 
-/* line 92, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 83, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+#sidebar h2 {
+  font-size: 18px; }
+/* line 84, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+#sidebar ul {
+  list-style: none;
+  padding-left: 0; }
+
+/* line 90, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+a, a:link {
+  transition: 0.25s;
+  text-decoration: none; }
+
+/* line 96, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 .navigation-open #page {
   left: 0;
   -webkit-transform: translate3d(70%, 0, 0);
@@ -99,7 +114,7 @@ a, a:link {
   -o-transition: -o-transform 500ms ease;
   transition: transform 500ms ease; }
 
-/* line 105, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
+/* line 109, C:/Users/Mike/Desktop/Local Development/wp-bootplate/wp-content/themes/wp-bootplate/style.scss */
 #page {
   left: 0;
   -webkit-transform: translate3d(0, 0, 0);
